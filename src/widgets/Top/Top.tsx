@@ -1,4 +1,4 @@
-import { Button, Group, Text } from "@mantine/core";
+import { Button, Text } from "@mantine/core";
 import s from "./Top.module.css";
 
 export const Top = () => {
@@ -9,10 +9,10 @@ export const Top = () => {
           <Text className={s.top__description}>
             Установка, обслуговування, продаж кондиціонерів в Ладижині
           </Text>
-          <Group>
+          <div className={s.top__buttonWrapper}>
             <Button>+38(068)947-87-23</Button>
             <Button>+38(068)947-87-23</Button>
-          </Group>
+          </div>
         </div>
       </div>
     </div>
