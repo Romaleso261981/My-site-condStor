@@ -20,6 +20,8 @@
   @media (max-width: $mantine-breakpoint-sm) {
     height: rem(42px);
     width: 100%;
+    padding-left: var(--mantine-spacing-sm);
+    padding-right: var(--mantine-spacing-sm);
   }
 
   @mixin hover {

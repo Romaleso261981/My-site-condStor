@@ -25,7 +25,7 @@
 @media (max-width: 450px) {
   .top__content {
     flex-direction: column;
-    padding: var(--mantine-spacing-sm) var(--mantine-spacing-lg);
+    padding: 0;
   }
   .top__buttonWrapper {
     display: flex;
