@@ -3,6 +3,7 @@ import "@mantine/core/styles.css";
 
 import { MantineProvider } from "@mantine/core";
 import { Footer, Header, Hero, Top } from "./widgets";
+import { ContactUs } from "./widgets/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Top />
       <Header />
       <Hero />
+      <ContactUs />
       <Footer />
     </MantineProvider>
   );
