@@ -1,9 +1,9 @@
 .hero {
   position: relative;
   background-image: url("/src/assets/hero/hero.webp");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: -700px -20px;
 }
 
 .container {
