@@ -21,6 +21,12 @@
   color: light-dark(var(--mantine-color-white), var(--mantine-color-black));
 }
 @media (max-width: 768px) {
+  .top__buttonWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--mantine-spacing-sm);
+  }
 }
 @media (max-width: 450px) {
   .top__content {
@@ -28,8 +34,6 @@
     padding: 0;
   }
   .top__buttonWrapper {
-    display: flex;
-    justify-content: center;
     flex-direction: row;
     margin-top: var(--mantine-spacing-sm);
     gap: var(--mantine-spacing-sm);
