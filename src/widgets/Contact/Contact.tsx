@@ -38,9 +38,7 @@ export const ContactUs = () => {
           <Text className={classes.description} mt="sm" mb={30}>
             Залиште своє повідомлення ми вам зателефонуємо
           </Text>
-
           <ContactIconsList />
-
           <Group mt="xl">{icons}</Group>
         </div>
         <div className={classes.form}>

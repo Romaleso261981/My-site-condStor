@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: rem(400px);
+  min-height: 400px;
   background-image: linear-gradient(
     -60deg,
     var(--mantine-color-blue-4) 0%,
@@ -33,6 +33,9 @@
   padding: var(--mantine-spacing-xl);
   border-radius: var(--mantine-radius-md);
   box-shadow: var(--mantine-shadow-lg);
+  @media (max-width: 450px) {
+    padding: var(--mantine-spacing-sm);
+  }
 }
 
 .social {

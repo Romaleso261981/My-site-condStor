@@ -32,10 +32,10 @@ export const ContactIcon = ({
 };
 
 const MOCKDATA = [
-  { title: "Email", description: "hello@mantine.dev", icon: IconAt },
-  { title: "Phone", description: "+49 (800) 335 35 35", icon: IconPhone },
-  { title: "Address", description: "844 Morris Park avenue", icon: IconMapPin },
-  { title: "Working hours", description: "8 a.m. – 11 p.m.", icon: IconSun }
+  { title: "Пошта", description: "ladiginscormag@gmail.com", icon: IconAt },
+  { title: "Телефон", description: "+38 (068) 947 87 23", icon: IconPhone },
+  { title: "Адресса", description: "Україна вінницька обл.", icon: IconMapPin },
+  { title: "Години роботи", description: "9.00 – 18.00", icon: IconSun }
 ];
 
 export function ContactIconsList() {
